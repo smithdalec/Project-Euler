@@ -8,7 +8,7 @@ i = top_num
 
 while (all_divisible == False):
 	nums = []
-	for x in xrange(1,(top_num)):
+	for x in xrange(11,(top_num)):
 		if i % x == 0:
 			nums.append(True)
 		else:
